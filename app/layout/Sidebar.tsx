@@ -48,9 +48,13 @@ export default function Sidebar() {
   const pathName = usePathname();
   const [collapsed, setCollapsed] = useState(false);
   return (
-    <div>
+    <div
+      className={`shrink-0 transition-[width] duration-300 h-screen ${
+        collapsed ? "w-18" : "w-60"
+      }`}
+    >
       <aside
-        className={`flex h-screen flex-col overflow-hidden rounded-2xl bg-white p-3 shadow-xl transition-[width] duration-300 ${
+        className={`fixed left-0 top-0 z-40 flex h-full flex-col overflow-hidden rounded-2xl bg-white p-3 shadow-xl transition-[width] duration-300 ${
           collapsed ? "w-18" : "w-60"
         }`}
       >
