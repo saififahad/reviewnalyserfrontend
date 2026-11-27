@@ -51,7 +51,7 @@ export default function Sidebar() {
     <div>
       <aside
         className={`flex h-screen flex-col overflow-hidden rounded-2xl bg-white p-3 shadow-xl transition-[width] duration-300 ${
-          collapsed ? "w-[72px]" : "w-[240px]"
+          collapsed ? "w-18" : "w-60"
         }`}
       >
         {/* Header: logo + collapse button */}

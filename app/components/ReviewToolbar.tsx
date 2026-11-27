@@ -11,7 +11,7 @@ import {
 
 export function BusinessSelector() {
   return (
-    <div className="relative min-w-[165px]">
+    <div className="relative min-w-41.25">
       <Store
         size={16}
         className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500"
@@ -31,7 +31,7 @@ export function BusinessSelector() {
 }
 export function SearchReviews() {
   return (
-    <div className="relative min-w-[180px] flex-1">
+    <div className="relative min-w-45 flex-1">
       <Search
         size={17}
         className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
@@ -45,7 +45,7 @@ export function SearchReviews() {
 }
 export function DateRange() {
   return (
-    <div className="relative min-w-[145px]">
+    <div className="relative min-w-36.25">
       <CalendarDays
         size={16}
         className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500"
@@ -67,7 +67,7 @@ export function DateRange() {
 }
 export function Filter() {
   return (
-    <div className="relative min-w-[125px]">
+    <div className="relative min-w-31.25">
       <Star
         size={15}
         className="absolute left-3 top-1/2 -translate-y-1/2 text-amber-500"
@@ -91,7 +91,7 @@ export function Filter() {
 }
 export function SentimentFilter() {
   return (
-    <div className="relative min-w-[145px]">
+    <div className="relative min-w-36.25">
       <Smile
         size={16}
         className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500"
@@ -102,7 +102,6 @@ export function SentimentFilter() {
         <option>Neutral</option>
         <option>Negative</option>
       </select>
-
       <ChevronDown
         size={14}
         className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400"
